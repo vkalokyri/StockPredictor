@@ -1,17 +1,16 @@
 
-Spring 2015 - 332:567 Project - Stock Predictor Web App
-Spring 2015 - 332:568 Project - Stock Predictor Web App
+# Spring 2015 - 332:567 Project - Stock Predictor Web App
 
 
-PARTICIPANTS:
+## PARTICIPANTS:
 	
-      	Parishad Karimi
-      	Ali Rostami
+	Parishad Karimi
+	Ali Rostami
 	Valia Kalokyri
 	Marc Gamell
 	Fernando Geraci
 		
-IMPLEMENTATION OVERVIEW:
+## IMPLEMENTATION OVERVIEW:
 
 	The skeleton has been built as a Maven project, with a master pom in the root. There are setting files for
 	importing into Eclipse. The packaging is WAR so it will be fully deployable in any tomcat 7+ instance.
