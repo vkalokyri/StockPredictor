@@ -1,0 +1,144 @@
+body {
+	font-family: Ubuntu, sans-serif;
+	margin: 0;
+	/*background: rgba(232, 240, 247, 1);*/
+	background-repeat: no-repeat;
+}
+
+.Header {
+	color: WHITE;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: rgba(143, 28, 32, 0.9);
+	box-shadow: 0px 5px 5px #888888;
+	line-height: 100%;
+	min-width: 800px;
+}
+
+/* JQUERY OVERRIDES */
+
+.ui-autocomplete li.ui-menu-item {
+	font-size: 80%;
+    padding: 0px;
+    color: gray;
+  	margin: 0;
+}
+
+.ui-autocomplete li.ui-menu-item.ui-state-focus {
+    border-width: 0;
+}
+
+/* INPUTS */
+
+input[type=text],[type=password] {
+	width: 90%;
+	margin: 10px;
+	padding: 5px 10px 5px 10px;
+	height: 130%;
+	border: none;
+	border-color: transparent;
+	border-radius: 2px;
+	box-shadow: 3px 3px 5px #888888; 
+}
+
+input[type=text]:FOCUS,[type=password]:FOCUS {
+	outline: none;
+    box-shadow: 2px 2px 5px #222;
+}
+
+.searchButton {
+	opacity: 0.6;
+	cursor:pointer;
+	outline: none;
+	border: none;
+	height: 40px;
+	width: 40px;
+	background: url("../images/search_icon.png") no-repeat;
+	line-height: 100%;
+}
+
+.searchButton:hover {
+	opacity: 1;
+}
+
+/* MISC STYLES */
+
+::-webkit-input-placeholder {
+ font-size: 18px;
+ color: gray;
+ font-weight: 
+}
+
+.BoxShadow {
+	box-shadow: 0px 5px 5px #888888;
+}
+
+.BreakLine {
+	margin: auto;
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	width: 90%;
+}
+
+/* BODY CONTAINER */
+
+#page-cover {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20,20,20,0.3);
+    top: 0;
+    left: 0;
+}
+
+.BodyContainer {
+	min-width: 500px;
+	margin: auto;
+	padding: 0 20% 0 20%;
+}
+
+/* BUTTONS */
+
+input[type=button] {
+	margin: 10px;
+	color: white;
+	padding:5px 15px; 
+	background: rgba(44,44,44,0.8); 
+	opacity: 0.7;
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+input[type=button]:HOVER { 
+	color: black;
+	background: WHITE;
+}
+
+.ButtonLink {
+	text-decoration: none;
+	color: lightgray;
+}
+
+.ButtonLink:HOVER {
+	text-decoration: none;
+	color: white;
+}
+
+/* FLOATING DIVS */
+
+.FloatingDiv {
+	padding: 20px;
+	border-radius: 2px;
+	text-align: center;
+	background: rgba(143, 28, 32, 0.9);;
+	box-shadow: 0px 5px 5px #888888;
+}
+
+.ui-widget-content {
+	background: rgba(143, 28, 32, 0.9); !important
+}

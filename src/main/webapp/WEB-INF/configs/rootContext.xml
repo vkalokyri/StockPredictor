@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    
+    <mvc:annotation-driven />
+    <!--  required for Spring finding css, JS, etc resources -->
+    <mvc:resources location="/resources/" mapping="/**"></mvc:resources>
+    
+    <!-- This enables for hybrid config such that we can use XML or annotations, @Component, for declarations -->
+    <context:annotation-config />
+    <context:component-scan base-package="edu.rutgers" />
+    
+    <!-- This will resolve names passed in ModelAndView controller return methods -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    	<property name="prefix">
+    		<value>/WEB-INF/pages/</value>
+    	</property>
+    	<property name="suffix">
+    		<value>.jsp</value>
+    	</property>
+    </bean>
+     
+</beans>
