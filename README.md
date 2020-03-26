@@ -1,21 +1,15 @@
-# 332-568
 
-
-<<<<<<< HEAD
 Spring 2015 - 332:567 Project - Stock Predictor Web App
-=======
 Spring 2015 - 332:568 Project - Stock Predictor Web App
->>>>>>> refs/remotes/origin/master
--------------------------------------------------------
 
 
 PARTICIPANTS:
 	
       	Parishad Karimi
       	Ali Rostami
-		Valia Kalokyri
-		Marc Gamell
-		Fernando Geraci
+	Valia Kalokyri
+	Marc Gamell
+	Fernando Geraci
 		
 IMPLEMENTATION OVERVIEW:
 
